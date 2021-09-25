@@ -4,19 +4,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    padding-top:  10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    background-size: contain;
-    height: 110px;
-    background-color:rgb(0, 0, 0);
-}
 
-.body {
-    height: 1500px;
-    width: 1000px;
-}
 
 .logo {                                                                     /* LOGOTIPO*/
     background-image:url("../assets/stVitisLogotipo.png");
@@ -31,67 +19,11 @@ header {
 }
 
 
-a{
-    text-decoration:none;
-    color:#212121;
-    font-size:14px;
-}
-
 .encabezado{
         flex-direction: row;
         display: flex;
         height: 300px;
         
-}
-
-nav a{
-        text-decoration:none;
-        color:rgb(255, 255, 255);
-        font-size:14px;
-}
-
-
-.eslogan {                                                                 /* ESLOGAN*/
-    padding-bottom: 15px;
-    padding-left: 50px;
-display: flex;
-        color:#ffd600;
-
-}
-
-
-
-.menulista{                                                         /* MENU DESPLEGABLE*/
-    display: flex;
-    justify-content:last baseline;
-}
-nav li{
-        display:inline-block;
-        width:100px;
-        height:30px;
-        padding:5px 10px;
-        background-color:#212121;
-        border:1px solid rgb(1, 23, 218);
-        text-align:center;
-        color:rgb(255, 255, 255);
-        position:relative;
-}
-
-nav li:hover{
-    
-        background-color:#ffd600;
-        color:#212121;
-}
-
-nav li>ul{
-        display:none;
-}
-
-nav li:hover>ul{
-        display:block;
-        position:absolute;
-        top:30px;
-        left:0px;
 }
 
 
@@ -235,11 +167,7 @@ nav li:hover>ul{
 
 
 
-.video{   
-    display:inline-block;                                                 /* ------BODEGAS------*/
-    margin:30px 0px 30px 280px;
-    
-}
+
 
 
 
