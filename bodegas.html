@@ -4,47 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/stVitisLogotipo.png">
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"  rel="stylesheet"/>
     <title>SAINT VITIS</title>
 </head>
 
 <body>
 
   <header>  
-      
+    
       <!--  MENU -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="assets/stVitisLogotipo.png" alt="" width="110" height="110"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>   <!--MENU HAMBURGUESA-->
+          <a class="navbar-brand" href="index.html"><img src="assets/stVitisLogotipo.png" alt="" width="40%" height="40%"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#af9408;">
+            <span class="navbar-toggler-icon" ></span>   <!--MENU HAMBURGUESA-->
           </button>
-          <div class="collapse navbar-collapse show" id="navbarBasic">
-            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <div class="collapse navbar-collapse show" id="navbarBasic"  >
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0" >
               <li class="nav-item">
-                <a class="nav-link active keychainify-checked" aria-current="page" href="#">CATALOGO</a>
+                <a class="nav-link active keychainify-checked" aria-current="page" href="catalogo.html">CATALOGO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active keychainify-checked" aria-current="page" href="#">BODEGAS</a>
+                <a class="nav-link active keychainify-checked" aria-current="page" href="bodegas.html">BODEGAS</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="tienda.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   TIENDA
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">   <!--BOTON DROPDOWN-->
-                  <li><a class="dropdown-item" href="#">Gift Card</a></li>
-                  <li><a class="dropdown-item" href="#">Regalá</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                </ul>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">   <!--BOTON DROPDOWN-->
+                  <li><a class="dropdown-item " href="tienda.html">Gift Card</a></li>
+                  </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active keychainify-checked" aria-current="page" href="#">CATALOGO</a>
+                <a class="nav-link active keychainify-checked" aria-current="page" href="contacto.html">CONTACTO</a>
               </li>
             </ul>
             
@@ -57,71 +57,84 @@
 
 <!-- GRID CARDS -->
 
-    <div id="bodega">
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="bodega">  
+  <div class="row row-cols-1 row-cols-md-2 g-4 row1">
         <div class="col">
           <div class="card h-100">
-            <img src="assets/achavalFerrer.png" class="card-img-top" alt="...">
+            <img src="assets/achavalFerrer.png" class="card-img-top" alt="Achaval-Ferrer, vino, bodega" title="Achaval-Ferrer logo">
             <div class="card-body">
               <h5 class="card-title"> <b> Achaval-Ferrer </b></h5>
               <p class="card-text">Desde sus inicios, la bodega persigue un camino fuertemente marcado por su obsesión y respeto por la naturaleza. Los pilares fundamentales de la producción en Achaval-Ferrer, tienen foco en la mínima intervención necesaria entre la tierra y la copa.</p>
-              <a href="catalogo.html" class="btn btn-primary">Ver en CATALOGO</a>
-              <a target="blank" href="https://www.achaval-ferrer.com/" class="btn btn-primary">Visitar Achaval-Ferrer </a>
+              <a href="catalogo.html" class="btn btn-dark">Ver en CATALOGO</a>
+              <a target="blank" href="https://www.achaval-ferrer.com/" class="btn btn-dark">Visitar Achaval-Ferrer </a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="assets/andeluna.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"> <b> Andeluna </b></h5>
-              <p class="card-text">Andeluna es una bodega familiar, fundada en 2003, con la visión de convertirse en uno de los mayores referentes de calidad de la industria vitivinícola Argentina. La bodega está ubicada en el terruño rocoso de Gualtallary, Mendoza, a más de 1300 (msnm), al pie de la Cordillera de Los Andes; un entorno perfecto para la producción de vinos complejos y de calidad.</p>
-              <a href="catalogo.html" class="btn btn-primary">Ver en CATALOGO</a>
-              <a target="blank" href="https://www.andeluna.com.ar/es/?fbclid=IwAR0AjSYvle-pHfK_x76p-dKobq0G2c5h3aTI3blJSjqwBhuuaplQ7H6rAAA" class="btn btn-primary">Visitar Andeluna </a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/bodegaAraujo.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"> <b> Bodega Araujo </b></h5>
-              <p class="card-text">La historia de Bodega Araujo empieza en el año 2001 con la adquisición de las primeras fincas en la región de Villa Atuel en San Rafael (Mendoza), plantando nuevos viñedos y recuperando añosas viñas. Nuestra misión es crear sensaciones que reflejen nuestra pasión y cuidado por la naturaleza, colaboradores y comunidades.</p>
-              <a href="catalogo.html" class="btn btn-primary">Ver en CATALOGO</a>
-              <a target="blank" href="www.casaaraujo.com.ar" class="btn btn-primary">Visitar Bodega Araujo </a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/catenaZapata.png" class="card-img-top" alt="...">
+            <img src="assets/catenaZapata.png" class="card-img-top" alt="catenaZapata, vino, bodega" title="Catena Zapata logo">
             <div class="card-body">
               <h5 class="card-title"> <b> Catena Zapata </b></h5>
               <p class="card-text">Somos una bodega familiar con más de cien años de trayectoria en el cultivo de Malbec en Mendoza. A través de las generaciones, hemos transmitido de padres a hijos nuestra cultura vitícola y enológica.</p>
-              <a href="catalogo.html" class="btn btn-primary">Ver en CATALOGO</a>
-              <a target="blank" href="https://catenazapata.com/" class="btn btn-primary">Visitar Catena Zapata </a>
+              <a href="catalogo.html" class="btn btn-dark">Ver en CATALOGO</a>
+              <a target="blank" href="https://catenazapata.com/" class="btn btn-dark">Visitar Catena Zapata </a>
             </div>
           </div>
         </div>
-      </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/andeluna.png"  class="card-img-top" alt="Andeluna, vino, bodega" title="Andeluna Logo">
+            <div class="card-body">
+              <h5 class="card-title"> <b> Andeluna </b></h5>
+              <p class="card-text">Andeluna es una bodega familiar, fundada en 2003, con la visión de convertirse en uno de los mayores referentes de calidad de la industria vitivinícola Argentina. La bodega está ubicada en el terruño rocoso de Gualtallary, Mendoza, a más de 1300 (msnm), al pie de la Cordillera de Los Andes.</p>
+              <a href="catalogo.html" class="btn btn-dark">Ver en CATALOGO</a>
+              <a target="blank" href="https://www.andeluna.com.ar/es/?fbclid=IwAR0AjSYvle-pHfK_x76p-dKobq0G2c5h3aTI3blJSjqwBhuuaplQ7H6rAAA" class="btn btn-dark">Visitar Andeluna </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/bodegaAraujo.png" class="card-img-top" alt="bodegaAraujo, vino, bodega" title="Bodega Araujo logo">
+            <div class="card-body">
+              <h5 class="card-title"> <b> Bodega Araujo </b></h5>
+              <p class="card-text">La historia de Bodega Araujo empieza en el año 2001 con la adquisición de las primeras fincas en la región de Villa Atuel en San Rafael (Mendoza), plantando nuevos viñedos y recuperando añosas viñas. Nuestra misión es crear sensaciones que reflejen nuestra pasión y cuidado por la naturaleza, colaboradores y comunidades.</p>
+              <a href="catalogo.html" class="btn btn-dark">Ver en CATALOGO</a>
+              <a target="blank" href="www.casaaraujo.com.ar" class="btn btn-dark">Visitar Bodega Araujo </a>
+            </div>
+          </div>
+        </div>
     </div>
+</div> 
+
+</body>
 </main>
 
-    <footer class="redsocial">                                          <!-- Pie de Pagina-->
-        <div class="redsocial1">
-            <div>
-            <img src="assets/instagram-square-brands.png.svg" class="icono" />
-        </div>
-        <div>
-            <img src="assets/facebook-square-brands.svg" class="icono" />
-        </div>
-        <div>
-            <img src="assets/whatsapp-square-brands.svg" class="icono" />
-        </div>
-        </div>
-        <h5>Copyright R, Saint Vitis 2021</h5>
-    </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<!-- Pie de Pagina FOOTER-->
 
-    </body>
+<footer class="bg-black text-center text-white">                  
+  
+  <div class="container p-4 pb-0">
+    
+    <section class="mb-4">
+      
+        <a class="btn btn-outline-light btn-floating m-3" href="https://www.facebook.com/people/stvitis/100063648573155/" target="blank" role="button"><i class="fab fa-facebook-f"></i></a>
+        
+        <a class="btn btn-outline-light btn-floating m-3" href="https://www.instagram.com/st.vitis/" target="blank" role="button"><i class="fab fa-instagram"></i></a>
+        
+        <a class="btn btn-outline-light btn-floating m-3" href="#!" role="button"><i class="fab fa-whatsapp"></i></a>
+    
+    </section>
+    
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021
+    <a class="text-white" href="https://mdbootstrap.com/">SAINT VITIS</a>
+  </div>
+
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+    
 </html>
