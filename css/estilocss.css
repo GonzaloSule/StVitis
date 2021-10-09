@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "montserrat", sans-serif; }
+
+.imagenLogo {
+  height: 40%;
+  width: 40%; }
+
+footer {
+  background-color: black; }
+
+.colorbgfooter {
+  background-color: black; }
+
+.logo {
+  /* LOGOTIPO*/
+  background-image: url("../assets/stVitisLogotipo.png");
+  height: 30%;
+  width: 0em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: black;
+  float: left;
+  flex-direction: row;
+  padding-right: 80em; }
+
+.row {
+  /* ------- CATALOGO MAIN ------- */
+  border: groove;
+  display: grid;
+  height: 1000px;
+  width: 100%;
+  background-color: #191919; }
+
+#div1 {
+  background-color: burlywood;
+  text-align: justify; }
+
+#div2 {
+  background-image: url("../assets/botella.jpg"); }
+
+#div3 {
+  background-image: url("../assets/botella.jpg");
+  grid-column-start: 3;
+  grid-row-start: 1; }
+
+#div4 {
+  background-image: url("../assets/botella.jpg");
+  grid-column-start: 4;
+  grid-row-start: 1; }
+
+.div5 {
+  background-image: url("../assets/botella.jpg");
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 6; }
+
+.div6 {
+  background-image: url("../assets/botella.jpg");
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 6; }
+
+.div7 {
+  background-image: url("../assets/botella.jpg");
+  grid-column-start: 3;
+  grid-row-start: 2;
+  grid-row-end: 6; }
+
+.div8 {
+  background-image: url("../assets/botella.jpg");
+  grid-column-start: 4;
+  grid-row-start: 2;
+  grid-row-end: 6; }
+
+.bodyContacto {
+  background-color: rgba(255, 217, 1, 0.918); }
+
+.form {
+  /*FORMULARIO DE CONTACTO */
+  width: 50%;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #141414;
+  color: white;
+  align-self: center; }
+
+.giftcard {
+  height: 1000px; }
+
+.menu {
+  /*-----INDEX MAIN ---- */
+  margin: 10px 10px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(3, 200px);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  background-color: #ffffff; }
+
+.cero {
+  /* vinos tintos*/
+  color: #ffd600;
+  text-align: justify;
+  font-size: 1rem;
+  background-color: #141414;
+  border: 1px solid white;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1; }
+
+.uno {
+  /*filtro de busqueda*/
+  color: white;
+  text-align: justify;
+  font-size: 1rem;
+  background-color: #323232;
+  border: 1px solid white;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3; }
+
+.tres {
+  /*vinos blancos*/
+  color: white;
+  text-align: justify;
+  font-size: 1rem;
+  background-color: #141414;
+  border: 1px solid white;
+  grid-column-start: 2;
+  grid-row-start: 2; }
+
+.cuatro {
+  /*bodegas anunciantes*/
+  color: #ffd600;
+  text-align: justify;
+  font-size: 1rem;
+  background-color: #323232;
+  border: 1px solid white;
+  grid-column-start: 1;
+  grid-row-start: 3; }
+
+.cinco {
+  /*espumantes*/
+  color: #ffd600;
+  text-align: justify;
+  font-size: 1rem;
+  background-color: #141414;
+  border: 1px solid white;
+  grid-column-start: 2;
+  grid-row-start: 3; }
+
+.row1 {
+  /*           BODEGA.HTML seccion / GRIDS /       */
+  height: 5%;
+  padding-bottom: 2.5%; }
+
+.bodega {
+  /*  fondo y margen contenedor de CARDS */
+  margin: 5%;
+  padding: 3%; }

@@ -1,0 +1,48 @@
+.row {
+    /* ------- CATALOGO MAIN ------- */
+    border: groove;
+    display: grid;
+    height: 1000px;
+    width: 100%;
+    background-color: #191919; }
+  
+  #div1 {
+    background-color: burlywood;
+    text-align: justify; }
+  
+  #div2 {
+    background-image: url("../assets/botella.jpg"); }
+  
+  #div3 {
+    background-image: url("../assets/botella.jpg");
+    grid-column-start: 3;
+    grid-row-start: 1; }
+  
+  #div4 {
+    background-image: url("../assets/botella.jpg");
+    grid-column-start: 4;
+    grid-row-start: 1; }
+  
+  .div5 {
+    background-image: url("../assets/botella.jpg");
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 6; }
+  
+  .div6 {
+    background-image: url("../assets/botella.jpg");
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 6; }
+  
+  .div7 {
+    background-image: url("../assets/botella.jpg");
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 6; }
+  
+  .div8 {
+    background-image: url("../assets/botella.jpg");
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 6; }
