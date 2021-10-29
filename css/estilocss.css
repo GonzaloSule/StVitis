@@ -1,7 +1,8 @@
 * {
-  padding: 0;
-  margin: 0;
-  font-family: "montserrat", sans-serif; }
+  padding: 0 ;
+  margin:  0 ;
+
+  font-family: "montserrat", sans-serif;}
 
 .imagenLogo {
   height: 40%;
@@ -25,57 +26,26 @@ footer {
   flex-direction: row;
   padding-right: 80em; }
 
-.row {
-  /* ------- CATALOGO MAIN ------- */
-  border: groove;
-  display: grid;
-  height: 1000px;
-  width: 100%;
-  background-color: #191919; }
 
-#div1 {
-  background-color: burlywood;
-  text-align: justify; }
+.product-grid9,.product-grid9 .product-image9{position:relative}
+.product-grid9{z-index:1}
+.product-grid9 .product-image9 a{display:block}
+.product-grid9 .product-image9 img{width:80%;height:auto}
+.product-grid9 .pic-1{opacity:1;transition:all .2s ease-out 0s}
+.product-grid9:hover .pic-1{opacity:1}
+.product-grid9 .pic-2{position:absolute;top:0;left:0;opacity:0;transform: scale(1.1);transition:all .1s ease-out .1s}
+.product-grid9:hover .pic-2{opacity:2}
+.product-grid9 .product-content{padding:12px 12px 0;overflow:hidden;position:relative}
+.product-grid9 .title{font-size:16px;font-weight:400;text-transform:capitalize;margin:0 0 3px;transition:all .3s ease 0s}
+.product-grid9 .title a{color:rgba(0, 0, 0, 0.605)}
+.product-grid9 .title a:hover{color:#000000}
+.product-grid9 .price{color:#000;font-size:17px;margin:0;display:block;transition:all .5s ease 0s}
 
-#div2 {
-  background-image: url("../assets/botella.jpg"); }
+@media only screen and (max-width:990px){.product-grid9{margin-bottom:30px}
+}
 
-#div3 {
-  background-image: url("../assets/botella.jpg");
-  grid-column-start: 3;
-  grid-row-start: 1; }
 
-#div4 {
-  background-image: url("../assets/botella.jpg");
-  grid-column-start: 4;
-  grid-row-start: 1; }
 
-.div5 {
-  background-image: url("../assets/botella.jpg");
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 6; }
-
-.div6 {
-  background-image: url("../assets/botella.jpg");
-  grid-column-start: 2;
-  grid-row-start: 2;
-  grid-row-end: 6; }
-
-.div7 {
-  background-image: url("../assets/botella.jpg");
-  grid-column-start: 3;
-  grid-row-start: 2;
-  grid-row-end: 6; }
-
-.div8 {
-  background-image: url("../assets/botella.jpg");
-  grid-column-start: 4;
-  grid-row-start: 2;
-  grid-row-end: 6; }
-
-.bodyContacto {
-  background-color: rgba(255, 217, 1, 0.918); }
 
 .form {
   /*FORMULARIO DE CONTACTO */
@@ -92,8 +62,32 @@ footer {
 .giftcard {
   height: 1000px; }
 
+.cajaTitulo {
+  margin: 1.5%;
+  align-content: center;
+}
+  .indexTitulo{ 
+    padding: 0.5%;                                          /*-----INDEX MAIN ---- */
+    margin-top: 0.5%;
+    text-align: center;
+    color:rgb(255, 255, 255); 
+    background: linear-gradient( #323232,#000) ;
+    border-style: solid;}
+
+
+
+.indexTexto{
+  color: #000;
+  background: rgba(135, 134, 134, 0.285);
+  margin: 10px;
+  padding: 10px;
+  
+}   
+.tintosTexto{
+  align-self: center;
+}
 .menu {
-  /*-----INDEX MAIN ---- */
+  
   margin: 10px 10px;
   list-style-type: none;
   display: grid;
@@ -103,46 +97,32 @@ footer {
   grid-column-gap: 30px;
   background-color: #ffffff; }
 
-.cero {
-  /* vinos tintos*/
-  color: #ffd600;
-  text-align: justify;
-  font-size: 1rem;
-  background-color: #141414;
-  border: 1px solid white;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 1; }
 
-.uno {
-  /*filtro de busqueda*/
-  color: white;
-  text-align: justify;
-  font-size: 1rem;
-  background-color: #323232;
-  border: 1px solid white;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-row-end: 3; }
+
+.ceroContenido {
+  padding-left: 5px;
+  height: 80%;
+  width: 24%;}
+
+
 
 .tres {
   /*vinos blancos*/
-  color: white;
+  color: #ffd600;
   text-align: justify;
   font-size: 1rem;
-  background-color: #141414;
   border: 1px solid white;
   grid-column-start: 2;
   grid-row-start: 2; }
 
 .cuatro {
   /*bodegas anunciantes*/
+  
+  margin: 2%;
   color: #ffd600;
   text-align: justify;
   font-size: 1rem;
-  background-color: #323232;
-  border: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
   grid-column-start: 1;
   grid-row-start: 3; }
 
@@ -151,7 +131,7 @@ footer {
   color: #ffd600;
   text-align: justify;
   font-size: 1rem;
-  background-color: #141414;
+ 
   border: 1px solid white;
   grid-column-start: 2;
   grid-row-start: 3; }
@@ -165,3 +145,10 @@ footer {
   /*  fondo y margen contenedor de CARDS */
   margin: 5%;
   padding: 3%; }
+  
+.h4{
+  
+  background-color: #d8d8d858;
+  height: 100%;
+  width: 100%;}
+
